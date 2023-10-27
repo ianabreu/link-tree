@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import LinkButton from "./components/link-button";
 
 export default function Home() {
   return (
@@ -8,21 +9,9 @@ export default function Home() {
       <span>Veja meus links! 👇</span>
 
       <main className={styles.links}>
-        <section className={styles.link_area}>
-          <a href="#">
-            <p className={styles.link_text}>Canal do Youtube</p>
-          </a>
-        </section>
-        <section className={styles.link_area}>
-          <a href="#">
-            <p className={styles.link_text}>Canal do Youtube</p>
-          </a>
-        </section>
-        <section className={styles.link_area}>
-          <a href="#">
-            <p className={styles.link_text}>Canal do Youtube</p>
-          </a>
-        </section>
+        <LinkButton link="#">Canal do Youtube</LinkButton>
+        <LinkButton link="#">Instagram</LinkButton>
+        <LinkButton link="#">Linkedin</LinkButton>
       </main>
     </div>
   );

@@ -23,23 +23,7 @@
   width: 90%;
   text-align: center;
 }
-.link_area {
-  background-color: #fff;
-  width: 100%;
-  margin-bottom: 1.125rem;
-  padding: 8px 0;
-  user-select: none;
-  border-radius: var(--border-radius);
-  transition: transform 0.4s ease;
-}
-.link_area:hover {
-  transform: scale(1.04);
-}
-.link_text {
-  font-size: var(--text-lg);
-  line-height: 150%;
-  color: var(--text-color-dark);
-}
+
 /* .main {
   display: flex;
   flex-direction: column;

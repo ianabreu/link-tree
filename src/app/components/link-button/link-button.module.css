@@ -15,3 +15,13 @@
   line-height: 150%;
   color: var(--text-color-dark);
 }
+@media screen and (max-width: 500px) {
+  .link_text {
+    font-size: var(--text-md);
+  }
+}
+@media screen and (max-width: 320px) {
+  .link_text {
+    font-size: var(--text-sm);
+  }
+}

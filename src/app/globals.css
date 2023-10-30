@@ -6,6 +6,7 @@
   --text-color-dark: #050507;
 
   --background-color: linear-gradient(#232630, #050507);
+  --logo-gradient: linear-gradient(#1dac0d, #88ff00);
   --primary-color: #3366ff;
 
   --border-radius: 0.25rem; /* 4px */

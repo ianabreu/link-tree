@@ -9,10 +9,13 @@
   --primary-color: #3366ff;
 
   --border-radius: 0.25rem; /* 4px */
-  --text-sm: 0.75rem; /* 12px */
+  --text-xsm: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
   --text-md: 1rem; /* 16px */
   --text-lg: 1.125rem; /* 18px */
-  --text-xxl: 2.75rem; /* 44px */
+  --text-xl: 1.5rem; /* 24px */
+  --text-xxl: 1.75rem; /* 28px */
+  --text-xxxl: 2.75rem; /* 44px */
 }
 
 * {

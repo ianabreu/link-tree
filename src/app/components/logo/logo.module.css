@@ -1,0 +1,12 @@
+.logo {
+  font-size: 3.375rem;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+}
+.logo_text {
+  background: var(--logo-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: -0.5rem;
+}
